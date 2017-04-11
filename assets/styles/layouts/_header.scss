@@ -1,0 +1,33 @@
+.navbar-default {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  .navbar-brand{
+    font-size: 16px;
+    color: #2AD5B8;
+  }
+  .navbar-brand:hover{
+    color: #2AD5B8;
+    text-decoration: underline;
+
+  }
+  .navbar-nav>li {
+    text-transform: uppercase;
+  }
+  .navbar-nav>li>a{
+    color: black;
+  }
+  .navbar-nav>li>a:hover {
+    color: #2AD5B8;
+  }
+  .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #2AD5B8;
+    background-color: white;
+  }
+  .dropdown-menu>.active>a{
+    background-color: white;
+    color: #2AD5B8;
+  }
+
+}

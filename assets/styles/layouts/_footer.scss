@@ -1,0 +1,30 @@
+footer{
+  background-color: black;
+  color: white;
+  .content{
+    padding: 40px;
+    .a-left{
+      text-align: left;
+    }
+    .a-center{
+      text-align: center;
+    }
+    .a-right{
+      text-align: right;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    .phone{
+      a{
+        color: #2AD5B8;
+      }
+    }
+    .site{
+      a{
+        color: #2AD5B8;
+      }
+    }
+  }
+}

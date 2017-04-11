@@ -1,0 +1,29 @@
+.content-prices{
+  background: url("http://salonmyata.local/wp-content/themes/sage-8.4.2/assets/images/720.jpg") repeat;
+  height: auto;
+  .pricesblock{
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 70px;
+    text-align: center;
+    color: black;
+    .price-line{
+      margin: auto;
+      width: 40px;
+      border-top: 3px solid black;
+    }
+    h1{
+      font-family: serif;
+      font-style: italic;
+      font-size: 48px;
+    }
+    h3{
+      font-family: serif;
+      font-style: italic;
+      font-size: 36px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+    }
+  }
+}

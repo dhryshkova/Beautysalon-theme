@@ -1,0 +1,112 @@
+.content-home{
+  #intro{
+    background: url("http://salonmyata.local/wp-content/themes/sage-8.4.2/assets/images/main.png") no-repeat;
+    background-size: 100%;
+    .content{
+      height: 450px;
+    }
+  }
+  #services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .mint{
+      background-color: #2AD5B8;
+    }
+    .black{
+      background-color: black;
+      color: white;
+      a{
+        color: white !important;
+      }
+    }
+    .white{
+      background-color: white;
+    }
+
+    .dummy1 {
+      margin-top: 100%;
+    }
+    .thumbnail1 {
+      padding-top: calc(30% - 30px);
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+
+      p{
+        font-family: serif;
+        font-style: italic;
+        font-size: 32px;
+        margin-bottom: 40px;
+      }
+      .services-line{
+        margin: auto;
+        width: 28px;
+        border-top: 3px solid #000;
+        margin-bottom: 15px;
+      }
+      .services-line-white{
+        margin: auto;
+        width: 28px;
+        border-top: 3px solid #fff;
+        margin-bottom: 15px;
+      }
+      a{
+        color: black;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+    }
+    .thumbnail2 {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  #contacts{
+    background: url("http://salonmyata.local/wp-content/themes/sage-8.4.2/assets/images/qiqi.jpg") no-repeat;
+    height: auto;
+    .contactblock{
+      background-color: black;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      padding: 70px;
+      text-align: center;
+      color: white;
+      .contact-line{
+        margin: auto;
+        width: 40px;
+        border-top: 3px solid white;
+      }
+      h1{
+        font-family: serif;
+        font-style: italic;
+        font-size: 48px;
+      }
+      p{
+        font-size: 16px;
+      }
+      .phone{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        a{
+          color: #2AD5B8;
+        }
+      }
+      .hours{
+        padding-top: 40px;
+      }
+    }
+  }
+}
